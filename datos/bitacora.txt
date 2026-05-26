@@ -1,0 +1,5 @@
+[2026-05-22 23:40:08] | AGREGAR    | ESTUDIANTE   | carnet=12345678 | nombre=Alexis Mateo
+[2026-05-22 23:40:20] | INICIO     | SISTEMA      | Sesión iniciada — datos cargados desde disco
+[2026-05-22 23:40:32] | INICIO     | SISTEMA      | Sesión iniciada — datos cargados desde disco
+[2026-05-22 23:51:36] | INICIO     | SISTEMA      | Sesión iniciada — datos cargados desde disco
+[2026-05-25 21:33:38] | INICIO     | SISTEMA      | Sesión iniciada — datos cargados desde disco
