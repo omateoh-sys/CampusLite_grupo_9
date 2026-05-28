@@ -64,9 +64,9 @@ public class CourseWindow extends JFrame {
         refrescarComboMaestros();
     }
 
-    // ══════════════════════════════════════════════════════════════════════════
+    
     // TAB 1 — CURSOS
-    // ══════════════════════════════════════════════════════════════════════════
+  
     private JPanel crearTabCursos() {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
         panel.setBorder(new EmptyBorder(12, 12, 12, 12));
@@ -227,14 +227,14 @@ public class CourseWindow extends JFrame {
             cbMaestro.addItem(m.getEmployeeCode() + " — " + m.getFullName());
     }
 
-    // ══════════════════════════════════════════════════════════════════════════
+ 
     // TAB 2 — EVALUACIONES
-    // ══════════════════════════════════════════════════════════════════════════
+   
     private JPanel crearTabEvaluaciones() {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
         panel.setBorder(new EmptyBorder(12, 12, 12, 12));
 
-        // ── Panel izquierdo: agregar nueva + editar existente ──────────────
+        // ── Panel izquierdo: agregar nueva + editar existente 
         JPanel izq = new JPanel();
         izq.setLayout(new BoxLayout(izq, BoxLayout.Y_AXIS));
         izq.setPreferredSize(new Dimension(270, 0));
@@ -248,7 +248,7 @@ public class CourseWindow extends JFrame {
         selCurso.add(cbCursoEval, BorderLayout.CENTER);
         izq.add(selCurso); izq.add(strut(10));
 
-        // ── Sección AGREGAR ────────────────────────────────────────────────
+        //  Sección AGREGAR 
         JPanel panelAgregar = new JPanel();
         panelAgregar.setLayout(new BoxLayout(panelAgregar, BoxLayout.Y_AXIS));
         panelAgregar.setBorder(BorderFactory.createTitledBorder("Agregar evaluación"));
@@ -271,7 +271,7 @@ public class CourseWindow extends JFrame {
         panelAgregar.add(btn("➕ Agregar evaluación", () -> accionAgregarEvaluacion()));
         izq.add(panelAgregar); izq.add(strut(10));
 
-        // ── Sección EDITAR ─────────────────────────────────────────────────
+        //  Sección EDITAR 
         JPanel panelEditar = new JPanel();
         panelEditar.setLayout(new BoxLayout(panelEditar, BoxLayout.Y_AXIS));
         panelEditar.setBorder(BorderFactory.createTitledBorder(
@@ -294,7 +294,7 @@ public class CourseWindow extends JFrame {
         panelEditar.add(btnEliminarEv);
         izq.add(panelEditar);
 
-        // ── Tabla de evaluaciones ──────────────────────────────────────────
+        // Tabla de evaluaciones 
         String[] cols = {"#", "Nombre", "Tipo", "Ponderación", "Acumulado"};
         modeloEvaluaciones = new DefaultTableModel(cols, 0) {
             public boolean isCellEditable(int r, int c) { return false; }
@@ -464,9 +464,9 @@ public class CourseWindow extends JFrame {
         }
     }
 
-    // ══════════════════════════════════════════════════════════════════════════
+ 
     // TAB 3 — INSCRIPCIONES
-    // ══════════════════════════════════════════════════════════════════════════
+   
     private JPanel crearTabInscripciones() {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
         panel.setBorder(new EmptyBorder(12, 12, 12, 12));
@@ -543,7 +543,7 @@ public class CourseWindow extends JFrame {
         }
     }
 
-    // ── Helpers ──────────────────────────────────────────────────────────────
+    // Helpers 
     private void refrescarTodo() {
         refrescarComboMaestros();
         refrescarCombo(cbCursoEval);
