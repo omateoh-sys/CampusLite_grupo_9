@@ -50,8 +50,5 @@ public class Teacher extends Person {
             + (especialidad.isEmpty() ? "" : " [" + especialidad + "]");
     }
 
-	public Object getCarnet() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 }

@@ -1,0 +1,23 @@
+CURSO|0101|Programacion 1|4|30|010102
+EXAMEN|Primer Parcial|15.0|0.0
+EXAMEN|Segundo Parcial|15.0|0.0
+PROYECTO|Prueba 1|15.0|0.0|0.0
+LAB|Prueba 2|15.0|
+EXAMEN|Examen Final|35.0|0.0
+EXAMEN|Asistencia|5.0|0.0
+---
+CURSO|0102|Fisica 1|4|25|010101
+EXAMEN|Primer Parcial|15.0|0.0
+EXAMEN|Segundo Parcial|15.0|0.0
+PROYECTO|Proyecto Final|15.0|0.0|0.0
+LAB|Laboratorio Final|15.0|
+LAB|Examen Final|40.0|
+---
+CURSO|0103|Calculo 1|4|30|010103
+EXAMEN|Primer Parcial|15.0|0.0
+EXAMEN|Segundo Parcial|15.0|0.0
+LAB|Laboratorio 1|10.0|
+LAB|Laboratorio Final|15.0|
+PROYECTO|Proyecto|15.0|0.0|0.0
+EXAMEN|Examen Final|30.0|0.0
+---

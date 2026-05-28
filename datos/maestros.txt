@@ -1,0 +1,3 @@
+010102|Jose Joaquin|jjoaquin@universidad.com.gt|Promamador
+010101|Edwar Perez|eperez@universidad.com.gt|Fisica 1
+010103|Raul Solares|rsolares@universidad.com.gt|Calculo 1

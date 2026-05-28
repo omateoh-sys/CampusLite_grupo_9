@@ -56,26 +56,6 @@ public class Registration {
     }
 
     /**
-     * Calcula el promedio ponderado usando las notas registradas.
-     * Las evaluaciones sin nota se ignoran del cálculo (no cuentan como 0).
-     * Retorna 0 si no hay notas.
-     */
-    public double calculateAverage() {
-        double totalPond  = 0;
-        double totalNota  = 0;
-
-        for (Evaluation ev : curso.getEvaluations()) {
-            double nota = getGrade(ev.getNombre());
-            if (nota >= 0) {
-                totalNota += nota * ev.getPonderacion();
-                totalPond += ev.getPonderacion();
-            }
-        }
-        if (totalPond == 0) return 0;
-        return totalNota / totalPond;
-    }
-
-    /**
      * Promedio considerando todas las evaluaciones del curso
      * (las sin nota cuentan como 0).
      */

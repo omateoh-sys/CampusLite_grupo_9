@@ -61,29 +61,20 @@ public class ReportWindow extends JFrame {
         tabla.setRowHeight(22);
         aplicarRendererEstado(tabla);
 
-        btnGenerar.addActionListener(e -> {
-            String sel = (String) cbCurso.getSelectedItem();
-            if (sel == null) return;
-            String codigo = sel.split(" — ")[0].trim();
-            generarReportePorCurso(codigo, modelo, tabla);
-        });
-
         // Resumen al pie
         JLabel lblResumen = new JLabel(" ");
         lblResumen.setFont(lblResumen.getFont().deriveFont(Font.BOLD, 11f));
 
         btnGenerar.addActionListener(e -> {
-            // Calcular stats después de recargar
-            SwingUtilities.invokeLater(() -> {
-                String sel = (String) cbCurso.getSelectedItem();
-                if (sel == null) return;
-                String codigo = sel.split(" — ")[0].trim();
-                List<Registration> ins = gestor.getInscripcionesPorCurso(codigo);
-                long aprobados = ins.stream().filter(Registration::isPassing).count();
-                lblResumen.setText("  Total: " + ins.size() +
-                    "  |  Aprobados: " + aprobados +
-                    "  |  Reprobados: " + (ins.size() - aprobados));
-            });
+            String sel = (String) cbCurso.getSelectedItem();
+            if (sel == null) return;
+            String codigo = sel.split(" — ")[0].trim();
+            generarReportePorCurso(codigo, modelo, tabla);
+            List<Registration> ins = gestor.getInscripcionesPorCurso(codigo);
+            long aprobados = ins.stream().filter(Registration::isPassing).count();
+            lblResumen.setText("  Total: " + ins.size() +
+                "  |  Aprobados: " + aprobados +
+                "  |  Reprobados: " + (ins.size() - aprobados));
         });
 
         panel.add(toolbar,                 BorderLayout.NORTH);

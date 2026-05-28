@@ -3,3 +3,130 @@
 [2026-05-22 23:40:32] | INICIO     | SISTEMA      | Sesión iniciada — datos cargados desde disco
 [2026-05-22 23:51:36] | INICIO     | SISTEMA      | Sesión iniciada — datos cargados desde disco
 [2026-05-25 21:33:38] | INICIO     | SISTEMA      | Sesión iniciada — datos cargados desde disco
+[2026-05-27 21:23:56] | INICIO     | SISTEMA      | Sesión iniciada — datos cargados desde disco
+[2026-05-27 21:24:51] | AGREGAR    | ESTUDIANTE   | carnet=12345679 | nombre=Karen Jarquin
+[2026-05-27 21:25:44] | AGREGAR    | MAESTRO      | codigo=010102 | nombre=Jose Joaquin
+[2026-05-27 21:26:12] | AGREGAR    | CURSO        | codigo=0101 | nombre=Programacion 1
+[2026-05-27 21:26:50] | AGREGAR    | EVALUACION   | curso=0101 | eval=Primer Parcial | tipo=ExamenEscrito | pond=15.0%
+[2026-05-27 21:27:15] | AGREGAR    | EVALUACION   | curso=0101 | eval=Segundo Parcial | tipo=ExamenEscrito | pond=15.0%
+[2026-05-27 21:27:43] | AGREGAR    | EVALUACION   | curso=0101 | eval=Prueba 1 | tipo=Proyecto | pond=15.0%
+[2026-05-27 21:28:28] | AGREGAR    | EVALUACION   | curso=0101 | eval=Prueba 2 | tipo=Laboratorio | pond=15.0%
+[2026-05-27 21:29:00] | AGREGAR    | EVALUACION   | curso=0101 | eval=Examen Final | tipo=ExamenEscrito | pond=35.0%
+[2026-05-27 21:29:15] | AGREGAR    | EVALUACION   | curso=0101 | eval=Asistencia | tipo=ExamenEscrito | pond=5.0%
+[2026-05-27 21:31:05] | AGREGAR    | ESTUDIANTE   | carnet=12345677 | nombre=Yeremy Gonzalez
+[2026-05-27 21:31:40] | AGREGAR    | ESTUDIANTE   | carnet=12345676 | nombre=Roberto Orellana
+[2026-05-27 21:32:00] | AGREGAR    | ESTUDIANTE   | carnet=12345675 | nombre=Angel Segovia
+[2026-05-27 21:32:21] | ACTUALIZAR | ESTUDIANTE   | antes=12345675 | despues=12345675 | nombre=Angel Segovia
+[2026-05-27 21:33:34] | AGREGAR    | MAESTRO      | codigo=010101 | nombre=Edwar Perez
+[2026-05-27 21:33:41] | ACTUALIZAR | MAESTRO      | antes=010102 | despues=010102 | nombre=Jose Joaquin
+[2026-05-27 21:34:02] | AGREGAR    | MAESTRO      | codigo=010103 | nombre=Raul Solares
+[2026-05-27 21:34:20] | ACTUALIZAR | MAESTRO      | antes=010103 | despues=010103 | nombre=Raul Solares
+[2026-05-27 21:34:35] | ACTUALIZAR | MAESTRO      | antes=010103 | despues=010103 | nombre=Raul Solares
+[2026-05-27 21:34:45] | ACTUALIZAR | MAESTRO      | antes=010101 | despues=010101 | nombre=Edwar Perez
+[2026-05-27 21:37:57] | AGREGAR    | CURSO        | codigo=0102 | nombre=Fisica 1
+[2026-05-27 21:38:37] | AGREGAR    | CURSO        | codigo=0103 | nombre=Calculo 1
+[2026-05-27 21:38:54] | AGREGAR    | EVALUACION   | curso=0102 | eval=Primer Parcial | tipo=ExamenEscrito | pond=15.0%
+[2026-05-27 21:39:06] | AGREGAR    | EVALUACION   | curso=0102 | eval=Segundo Parcial | tipo=ExamenEscrito | pond=15.0%
+[2026-05-27 21:39:53] | AGREGAR    | EVALUACION   | curso=0102 | eval=Proyecto Final | tipo=Proyecto | pond=15.0%
+[2026-05-27 21:40:12] | AGREGAR    | EVALUACION   | curso=0102 | eval=Laboratorio Final | tipo=Laboratorio | pond=15.0%
+[2026-05-27 21:40:55] | AGREGAR    | EVALUACION   | curso=0102 | eval=Examen Final | tipo=Laboratorio | pond=40.0%
+[2026-05-27 21:41:39] | AGREGAR    | EVALUACION   | curso=0103 | eval=Primer Parcial | tipo=ExamenEscrito | pond=15.0%
+[2026-05-27 21:42:06] | AGREGAR    | EVALUACION   | curso=0103 | eval=Segundo Parcial | tipo=ExamenEscrito | pond=15.0%
+[2026-05-27 21:44:16] | AGREGAR    | EVALUACION   | curso=0103 | eval=Laboratorio 1 | tipo=Laboratorio | pond=10.0%
+[2026-05-27 21:44:35] | AGREGAR    | EVALUACION   | curso=0103 | eval=Laboratorio Final | tipo=Laboratorio | pond=15.0%
+[2026-05-27 21:47:28] | AGREGAR    | EVALUACION   | curso=0103 | eval=Proyecto | tipo=Proyecto | pond=15.0%
+[2026-05-27 21:47:45] | AGREGAR    | EVALUACION   | curso=0103 | eval=Examen Final | tipo=ExamenEscrito | pond=30.0%
+[2026-05-27 21:48:03] | INSCRIBIR  | INSCRIPCION  | carnet=12345678 | curso=0101
+[2026-05-27 21:48:10] | INSCRIBIR  | INSCRIPCION  | carnet=12345679 | curso=0101
+[2026-05-27 21:48:24] | INSCRIBIR  | INSCRIPCION  | carnet=12345678 | curso=0102
+[2026-05-27 21:48:30] | INSCRIBIR  | INSCRIPCION  | carnet=12345679 | curso=0102
+[2026-05-27 21:48:38] | INSCRIBIR  | INSCRIPCION  | carnet=12345678 | curso=0103
+[2026-05-27 21:48:43] | INSCRIBIR  | INSCRIPCION  | carnet=12345679 | curso=0103
+[2026-05-27 21:53:50] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:53:50] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:53:50] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:53:50] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:53:50] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:53:50] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=20.0
+[2026-05-27 21:54:03] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:54:03] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:54:03] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:54:03] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:54:03] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:54:03] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=25.0
+[2026-05-27 21:54:08] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:54:08] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:54:08] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:54:08] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:54:08] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:54:08] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=30.0
+[2026-05-27 21:54:16] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:54:16] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:54:16] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:54:16] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:54:16] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:54:16] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=40.0
+[2026-05-27 21:54:20] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:54:20] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:54:20] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:54:20] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:54:20] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:54:20] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=48.0
+[2026-05-27 21:54:25] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:54:25] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:54:25] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:54:25] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:54:25] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:54:25] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=49.0
+[2026-05-27 21:54:29] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:54:29] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:54:29] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:54:29] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:54:29] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:54:29] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=50.0
+[2026-05-27 21:54:35] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:54:35] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:54:35] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:54:35] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:54:35] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:54:35] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=51.0
+[2026-05-27 21:54:40] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:54:40] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:54:40] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:54:40] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:54:40] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:54:40] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=52.0
+[2026-05-27 21:58:27] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:58:27] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 21:58:27] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio 1 | nota=50.0
+[2026-05-27 21:58:27] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Laboratorio Final | nota=55.0
+[2026-05-27 21:58:27] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Proyecto | nota=55.0
+[2026-05-27 21:58:27] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0103 | eval=Examen Final | nota=52.0
+[2026-05-27 21:59:04] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0103 | eval=Primer Parcial | nota=80.0
+[2026-05-27 21:59:04] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0103 | eval=Segundo Parcial | nota=70.0
+[2026-05-27 21:59:04] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0103 | eval=Laboratorio 1 | nota=80.0
+[2026-05-27 21:59:04] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0103 | eval=Laboratorio Final | nota=40.0
+[2026-05-27 21:59:04] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0103 | eval=Proyecto | nota=90.0
+[2026-05-27 21:59:04] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0103 | eval=Examen Final | nota=85.0
+[2026-05-27 22:00:07] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0101 | eval=Primer Parcial | nota=90.0
+[2026-05-27 22:00:07] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0101 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 22:00:07] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0101 | eval=Prueba 1 | nota=80.0
+[2026-05-27 22:00:07] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0101 | eval=Prueba 2 | nota=65.0
+[2026-05-27 22:00:07] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0101 | eval=Examen Final | nota=80.0
+[2026-05-27 22:00:07] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0101 | eval=Asistencia | nota=50.0
+[2026-05-27 22:00:56] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0102 | eval=Primer Parcial | nota=95.0
+[2026-05-27 22:00:56] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0102 | eval=Segundo Parcial | nota=80.0
+[2026-05-27 22:00:56] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0102 | eval=Proyecto Final | nota=70.0
+[2026-05-27 22:00:56] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0102 | eval=Laboratorio Final | nota=95.0
+[2026-05-27 22:00:56] | NOTA       | INSCRIPCION  | carnet=12345678 | curso=0102 | eval=Examen Final | nota=80.0
+[2026-05-27 22:01:32] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0102 | eval=Primer Parcial | nota=99.0
+[2026-05-27 22:01:32] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0102 | eval=Segundo Parcial | nota=86.0
+[2026-05-27 22:01:32] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0102 | eval=Proyecto Final | nota=90.0
+[2026-05-27 22:01:32] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0102 | eval=Laboratorio Final | nota=73.0
+[2026-05-27 22:01:32] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0102 | eval=Examen Final | nota=80.0
+[2026-05-27 22:02:41] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0101 | eval=Primer Parcial | nota=95.0
+[2026-05-27 22:02:41] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0101 | eval=Segundo Parcial | nota=85.0
+[2026-05-27 22:02:41] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0101 | eval=Prueba 1 | nota=70.0
+[2026-05-27 22:02:41] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0101 | eval=Prueba 2 | nota=99.0
+[2026-05-27 22:02:41] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0101 | eval=Examen Final | nota=60.0
+[2026-05-27 22:02:41] | NOTA       | INSCRIPCION  | carnet=12345679 | curso=0101 | eval=Asistencia | nota=100.0

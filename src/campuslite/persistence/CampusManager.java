@@ -310,17 +310,6 @@ public class CampusManager {
         Logbook.notaRegistrada(carnet, codigoCurso, nombreEval, nota);
     }
 
-    /**
-     * Guarda todas las notas que ya están en memoria (llamada desde VentanaNotas
-     * cuando el usuario presiona "Guardar notas" con múltiples campos).
-     * Las notas deben haberse registrado previamente con ins.registrarNota().
-     */
-    public void guardarNotas() {
-        guardar();
-        // La bitácora detallada se escribe nota a nota desde VentanaNotas
-        // usando registrarNota(); este método solo persiste el estado.
-    }
-
     public Registration buscarInscripcion(String carnet, String codigoCurso) {
         for (Registration ins : inscripciones)
             if (ins.getEstudiante().getStudentId().equals(carnet) &&

@@ -1,0 +1,46 @@
+INSCRIPCION|12345678|0101
+NOTA|Examen Final|80.0
+NOTA|Prueba 1|80.0
+NOTA|Asistencia|50.0
+NOTA|Segundo Parcial|80.0
+NOTA|Prueba 2|65.0
+NOTA|Primer Parcial|90.0
+---
+INSCRIPCION|12345679|0101
+NOTA|Examen Final|60.0
+NOTA|Prueba 1|70.0
+NOTA|Asistencia|100.0
+NOTA|Segundo Parcial|85.0
+NOTA|Prueba 2|99.0
+NOTA|Primer Parcial|95.0
+---
+INSCRIPCION|12345678|0102
+NOTA|Proyecto Final|70.0
+NOTA|Examen Final|80.0
+NOTA|Segundo Parcial|80.0
+NOTA|Primer Parcial|95.0
+NOTA|Laboratorio Final|95.0
+---
+INSCRIPCION|12345679|0102
+NOTA|Proyecto Final|90.0
+NOTA|Examen Final|80.0
+NOTA|Segundo Parcial|86.0
+NOTA|Primer Parcial|99.0
+NOTA|Laboratorio Final|73.0
+---
+INSCRIPCION|12345678|0103
+NOTA|Examen Final|52.0
+NOTA|Proyecto|55.0
+NOTA|Segundo Parcial|80.0
+NOTA|Primer Parcial|80.0
+NOTA|Laboratorio 1|50.0
+NOTA|Laboratorio Final|55.0
+---
+INSCRIPCION|12345679|0103
+NOTA|Examen Final|85.0
+NOTA|Proyecto|90.0
+NOTA|Segundo Parcial|70.0
+NOTA|Primer Parcial|80.0
+NOTA|Laboratorio 1|80.0
+NOTA|Laboratorio Final|40.0
+---
