@@ -623,4 +623,8 @@ La carpeta `datos/` se crea automáticamente en la primera ejecución.
 | Inscripción duplicada | `CampusManager.inscribir()` | "... ya está inscrito en ..." |
 | Estudiante aprobado si promedio >= 61 | `Registration.isPassing()` | Se muestra "APROBADO ✓" o "REPROBADO ✗" |
 
-Todas las validaciones del dominio lanzan `IllegalArgumentException`, que las ventanas Swing capturan y muestran en un `JOptionPane` con mensaje claro al usuario.  
+Todas las validaciones del dominio lanzan `IllegalArgumentException`, que las ventanas Swing capturan y muestran en un `JOptionPane` con mensaje claro al usuario. 
+
+## 9. Enlace de organizacion para el proyecto desde Trello:
+https://trello.com/b/YvUNa2Mc/proyecto-progra-1
+
