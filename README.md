@@ -21,6 +21,7 @@
 6. [Cómo ejecutar el proyecto](#6-cómo-ejecutar-el-proyecto)
 7. [Persistencia de datos](#7-persistencia-de-datos)
 8. [Validaciones importantes](#8-validaciones-importantes)
+9. [Area de trabajo y organizacion](#9-trello)
 
 ---
 
